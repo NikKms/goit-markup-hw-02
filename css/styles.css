@@ -1,38 +1,22 @@
-/* 
-primary color text rgba(46, 47, 66, 1)
-secondary color text  rgba(67, 68, 85, 1) 
-contacts color text #434455 
-logo text footer #F4F4FD  
-text footer #E7E9FC  
-*/
-
-/* white #FFFFFF*/
-/* accent rgba(77, 90, 229, 1)  */
-
-/* 
-primary back-ground color  #E5E5E5
-secondary back-ground color rgba(46, 47, 66, 1)  
-tertiary back-ground color #F4F4FD
-header  back-ground color  #FFFFFF 
-hero-button-color:rgba(64, 75, 191, 1)
-*/
-
 :root {
-  --primary-text-color: rgba(46, 47, 66, 1);
-  --secondary-text-color: rgba(67, 68, 85, 1);
-  --tertiary-text-color: #f4f4fd;
+  --header-bgc: #ffffff;
   --contact-text-color: #434455;
+
+  --footer-bgc: rgba(46, 47, 66, 1);
   --logo-text-footer: #f4f4fd;
   --text-footer: #e7e9fc;
 
-  --accent: #4d5ae5;
+  --title-text-color: rgba(46, 47, 66, 1);
+  --primary-text-color: rgba(67, 68, 85, 1);
+
+  --hero-bgс: rgba(46, 47, 66, 1);
   --hero-button-hf: #404bbf;
 
-  --primary-bgc: #e5e5e5;
-  --secondary-bcg: rgba(46, 47, 66, 1);
-  --tertiary-bcg: #f4f4fd;
-  --heade-bcg: #ffffff;
+  --team-bgc: #f4f4fd;
 
+  --filter-btn-bgc: #f4f4fd;
+
+  --accent: #4d5ae5;
   --white-clr: #ffffff;
 }
 
@@ -41,28 +25,20 @@ hero-button-color:rgba(64, 75, 191, 1)
   list-style: none;
 }
 
-/* all buttons */
-
-button:focus,
-button:hover {
-  color: var(--white-clr);
-  background-color: var(--accent);
-}
-
 /* MAIN */
 .page {
-  color: var(--secondary-text-color);
-  background-color: var(--primary-bgc);
+  color: var(--primary-text-color);
+  background-color: ;
 }
 
 /* header */
 .page-header {
-  background-color: var(--white-clr);
+  background-color: var(--header-bgc);
 }
 
 /* header logo */
 .logo {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 .logo-lead {
   color: var(--accent);
@@ -74,7 +50,7 @@ button:hover {
 
 /* .site-nav */
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -91,22 +67,22 @@ button:hover {
 
 /* footer */
 .page-footer {
-  background-color: var(--secondary-bcg);
+  background-color: var(--footer-bgc);
   color: var(--text-footer);
 }
 .page-footer .logo {
-  color: var(--tertiary-text-color);
+  color: var(--logo-text-color);
 }
 .page-footer .logo:focus,
 .page-footer .logo:hover {
   color: var(--accent);
 }
 
-/* main studio*/
+/* MAIN STUDIO*/
 
 /* hero */
 .hero {
-  background-color: var(--secondary-bcg);
+  background-color: var(--hero-bgс);
 }
 .hero-title {
   color: var(--white-clr);
@@ -126,25 +102,25 @@ button:hover {
 
 .section-title,
 .title {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 .hidden-title {
   visibility: hidden;
 }
 .team {
-  background-color: var(--tertiary-bcg);
+  background-color: var(--team-bgc);
 }
 
-/* main portfolio */
+/* MAIN PORTFOLIO */
 
 /* filter buttons */
 .filter-button {
   color: var(--accent);
-  background-color: var(--tertiary-bcg);
+  background-color: var(--filter-btn-bgc);
   cursor: pointer;
 }
-filter-button:focus,
-filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--white-clr);
   background-color: var(--accent);
 }
