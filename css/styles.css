@@ -25,6 +25,29 @@
   list-style: none;
 }
 
+/* button */
+.hero-button {
+  color: var(--white-clr);
+  background-color: var(--accent);
+  cursor: pointer;
+}
+.hero-button:focus,
+.hero-button:hover {
+  color: var(--white-clr);
+  background-color: var(--hero-button-hf);
+}
+
+.filter-button {
+  color: var(--accent);
+  background-color: var(--filter-btn-bgc);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-clr);
+  background-color: var(--accent);
+}
+
 /* MAIN */
 .page {
   color: var(--primary-text-color);
@@ -86,16 +109,6 @@
 .hero-title {
   color: var(--white-clr);
 }
-.hero-button {
-  color: var(--white-clr);
-  background-color: var(--accent);
-  cursor: pointer;
-}
-.hero-button:focus,
-.hero-button:hover {
-  color: var(--white-clr);
-  background-color: var(--hero-button-hf);
-}
 
 /* sections */
 
@@ -111,15 +124,3 @@
 }
 
 /* MAIN PORTFOLIO */
-
-/* filter buttons */
-.filter-button {
-  color: var(--accent);
-  background-color: var(--filter-btn-bgc);
-  cursor: pointer;
-}
-.filter-button:hover,
-.filter-button:focus {
-  color: var(--white-clr);
-  background-color: var(--accent);
-}
