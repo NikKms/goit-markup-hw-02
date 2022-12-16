@@ -138,7 +138,7 @@ body {
 }
 .hero-title {
   font-weight: var(--third-fw);
-  font-size: var(--third-fs);
+  font-size: var(--fifth-fs);
   line-height: 1.07;
   text-align: center;
   color: var(--hero-title-color);
