@@ -6,104 +6,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body class="page">
+<body class="body-page">
+    <!--top line-->
     <!--top line-->
     <header class="page-header">
         <!-- logo+home -->
-        <a href="./index.html" class="logo"><span class="logo-lead">WEB</span>STUDIO</a>
+        <a href="./index.html" class="logo link">WEB<span class="logo-header">STUDIO</span></a>
         <!-- navagations -->
-        <nav class="site-nav">
-            <ul class="site-nav list">
-                <li><a class="link" href="./index.html">Studio</a></li>
-                <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="link" href="#">Contacts</a></li>
+        <nav class="navigations">
+            <ul class="navigations list">
+                <li class="navigations-item"><a class="navigations-item-link link" href="./index.html">Studio</a></li>
+                <li class="nagigations-item"><a class="navigations-item-link link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="navigaions-item"><a class="navigations-item-link link" href="#">Contacts</a></li>
             </ul>
         </nav>
         <!--contats-->
         <ul class="contacts list">
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
+            <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000)
+                    111-11-11</a>
+            </li>
         </ul>
     </header>
+
     <main class="main-porfolio">
 
-        <section class="section porfolio">
-            <h1 class="hidden-title">Portfolio Projects</h1> <!--hidden-->
-            <h2 class="hidden-title">Filter</h2> <!--hidden-->
+        <section class="porfolio">
+            <h1>Portfolio Projects</h1> <!--hidden-->
+            <h2>Filter</h2> <!--hidden-->
             <!-- filter -->
-            <ul class="filter list">
-                <li><button type="button" class="filter-button">All</button></li>
-                <li><button type="button" class="filter-button">Web Site</button></li>
-                <li><button type="button" class="filter-button">App</button></li>
-                <li><button type="button" class="filter-button">Design</button></li>
-                <li><button type="button" class="filter-button">Marketing</button>
+            <ul class="filter-list list">
+                <li class="filter-item"><button type="button" class="filter-item-btn btn">All</button></li>
+                <li class="filter-item"><button type="button" class="filter-item-btn btn">Web Site</button></li>
+                <li class="filter-item"><button type="button" class="filter-item-btn btn">App</button></li>
+                <li class="filter-item"><button type="button" class="filter-item-btn btn">Design</button></li>
+                <li class="filter-item"><button type="button" class="filter-item-btn btn">Marketing</button>
                 </li>
             </ul>
-            <h2 class="title-hidden">Gallery</h2> <!--hidden-->
+            <h2>Gallery</h2> <!--hidden-->
             <!-- portfolio gallery -->
-            <ul class="portfolio list">
-                <li><a class="link" href="#"><img src="./images/portfolio-img-1.jpg" alt="Banking App Interface"
-                            width="360" height="300">
-                        <h3 class="title">Banking App Interface Concept</h3>
-                        <p>App</p>
-                    </a>
+            <ul class="gallery-list list">
+                <li gallery-item>
+                    <img src="./images/portfolio-img-1.jpg" alt="Banking App Interface" width="360" height="300">
+                    <h3 class="gallery-item-title">Banking App Interface Concept</h3>
+                    <p class="gallery-item-text">App</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-2.jpg" alt="payment by phone at the bank terminal"
-                            width="360" height="300">
-                        <h3 class="title">Cashless Payment</h3>
-                        <p>Marketing</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-2.jpg" alt="payment by phone at the bank terminal"
+                        width="360" height="300">
+                    <h3 class="gallery-item-title" class="gallery-item-text">Cashless Payment</h3>
+                    <p class="gallery-item-text">Marketing</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-3.jpg" alt="notebook" width="360" height="300">
-                        <h3 class="title">Meditaion App</h3>
-                        <p>App</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-3.jpg" alt="notebook" width="360" height="300">
+                    <h3 class="gallery-item-title">Meditaion App</h3>
+                    <p class="gallery-item-text">App</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-4.jpg"
-                            alt="hand on the steering wheel, phone on a stand" width="360" height="300">
-                        <h3 class="title">Taxi Service</h3>
-                        <p>Marketing</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-4.jpg"
+                        alt="hand on the steering wheel, phone on a stand" width="360" height="300">
+                    <h3 class="gallery-item-title">Taxi Service</h3>
+                    <p class="gallery-item-text">Marketing</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-5.jpg" alt="moon on phone screen" width="360"
-                            height="300">
-                        <h3 class="title">Screen Illustrations</h3>
-                        <p>Design</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-5.jpg" alt="moon on phone screen" width="360"
+                        height="300">
+                    <h3 class="gallery-item-title">Screen Illustrations</h3>
+                    <p class="gallery-item-text">Design</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-6.jpg" alt="girl listening to music" width="360"
-                            height="300">
-                        <h3 class="title">Online Courses</h3>
-                        <p>Marketing</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-6.jpg" alt="girl listening to music" width="360"
+                        height="300">
+                    <h3 class="gallery-item-title">Online Courses</h3>
+                    <p class="gallery-item-text">Marketing</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-7.jpg" alt="phone near notebook" width="360"
-                            height="300">
-                        <h3 class="title">Instagram Stories Concept</h3>
-                        <p>Design</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-7.jpg" alt="phone near notebook" width="360"
+                        height="300">
+                    <h3 class="gallery-item-title">Instagram Stories Concept</h3>
+                    <p class="gallery-item-text">Design</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-8.jpg" alt="products in a bag" width="360"
-                            height="300">
-                        <h3 class="title">Organic Food</h3>
-                        <p>Web Site</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-8.jpg" alt="products in a bag" width="360"
+                        height="300">
+                    <h3 class="title">Organic Food</h3>
+                    <p class="gallery-item-text">Web Site</p>
+
                 </li>
-                <li><a href="#"><img src="./images/portfolio-img-9.jpg" alt="coffe cup" width="360" height="300">
-                        <h3 class="title">Fresh Coffee</h3>
-                        <p>Web Site</p>
-                    </a>
+                <li gallery-item><img src="./images/portfolio-img-9.jpg" alt="coffe cup" width="360" height="300">
+                    <h3 class="gallery-item-title">Fresh Coffee</h3>
+                    <p class="gallery-item-text">Web Site</p>
+
                 </li>
             </ul>
         </section>
     </main>
     <footer class="page-footer">
         <!-- logo+home -->
-        <a href="./index.html" class="logo"><span class="logo-lead">WEB</span>STUDIO</a>
-        <p>
+        <a href="./index.html" class="logo link">WEB<span class="page-footer-logo">STUDIO</span></a>
+        <p class="page-footer-text">
             Increase the flow of customers and sales for your business with digital marketing & growth
             solutions.
         </p>
