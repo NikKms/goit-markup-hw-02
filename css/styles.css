@@ -21,6 +21,7 @@
   --header-bgc: #ffffff;
   --footer-bgc: #2e2f42;
   --filter-btn-bgc: #f4f4fd;
+  --team-cards-bgc: #ffffff;
 }
 
 /* -----------GENERAL---------------- */
@@ -224,6 +225,7 @@ body {
 }
 
 .team-item {
+  background-color: var(--team-cards-bgc);
 }
 .team-item-title {
   font-size: 20px;
